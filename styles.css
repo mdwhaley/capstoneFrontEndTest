@@ -1,0 +1,80 @@
+body {
+  background-color: #edf2f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2b2d42;
+  color: #ef233c;
+  text-align: center;
+  padding: 5px;
+}
+
+input,
+select {
+  color: #2b2d42;
+  background-color: #8d99ae;
+  width: 250px;
+}
+
+label {
+  width: 100px;
+  color: #d80032;
+}
+
+button {
+  background-color: #2b2d42;
+  color: #ef233c;
+  width: 100px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+button:hover {
+  background-color: #ef233c;
+  color: #2b2d42;
+}
+
+button:active {
+  background-color: #8d99ae;
+  color: #edf2f4;
+}
+
+#stripe {
+  height: 15px;
+  background-color: #8d99ae;
+  margin-bottom: 5px;
+}
+
+#hours-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+#button-row {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+
+#return-data {
+  color: #2b2d42;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#userEmail {
+  color: #ef233c;
+}
